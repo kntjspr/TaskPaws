@@ -77,6 +77,8 @@ This program was created as a project for Computer Programming 2 in the BS in Co
 - Sofia Belle Villarente
 
 
+## Screenshots
+![image](https://github.com/kntjspr/TaskPaws/assets/65537922/91dfa5ac-386f-47e6-bfb6-66cdce9ed46b)
 
 
 ## License
