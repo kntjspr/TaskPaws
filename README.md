@@ -59,3 +59,23 @@ Follow the on-screen menu to manage your tasks:
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
+## Credits
+
+This program was created as a project for Computer Programming 2 in the BS in Computer Science Program at University of Science and Technology of Southern Philippines.
+
+**CS1C - Group 1 Members:**
+- Sisi, Kent Jasper C.
+- Shane B. Pagara
+- Mitch Dumdum
+- Alyssa Euana
+- Charles Sorongon
+- Gerald Boniel
+- Jealry Escolar Pulpul
+- Karl Matt Jurial
+- Kyle Palongpalong
+- Mark Bautista Usman
+- Paul Saligumba
+- Ruiz Sagosa
+- Sofia Belle Villarente
+
+
