@@ -55,9 +55,7 @@ Follow the on-screen menu to manage your tasks:
 5. **Delete Task:** Delete a task.
 6. **Save and Exit:** Save tasks to a file and exit the application.
 
-## License
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Credits
 
@@ -79,3 +77,8 @@ This program was created as a project for Computer Programming 2 in the BS in Co
 - Sofia Belle Villarente
 
 
+
+
+## License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
