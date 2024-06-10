@@ -204,7 +204,7 @@ int main() {
                 cout << ANSI_YELLOW << "Invalid choice. Please try again." << ANSI_RESET << endl;
                 break;
         }
-    } while (choice != 6);
+    } while (choice != 7);
 
     return 0;
 }
