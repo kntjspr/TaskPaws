@@ -120,6 +120,30 @@ public:
     }
 };
 
+void credits() {
+    
+    cout << endl;
+    cout << "*****************************" << endl;
+    cout << "*        CREDITS            *" << endl;
+    cout << "*****************************" << endl;
+    cout << ANSI_BLUE << "This program was created as a project in Computer Programming 2 for the BS in Computer Science Program at University of Science and Technology of Southern Philippines." << ANSI_RESET << endl;
+    cout << endl;
+    cout << ANSI_GREEN << "CS1C - Group 1 Members:" << ANSI_RESET << endl;
+    cout << "- Sisi, Kent Jasper C." << endl;
+    cout << "- Shane B. Pagara" << endl;
+    cout << "- Mitch Dumdum" << endl;
+    cout << "- Jealry Escolar Pulpul" << endl;
+    cout << "- Sofia Belle Villarente" << endl;
+    cout << "- Alyssa Euana" << endl;
+    cout << "- Charles Sorongon" << endl;
+    cout << "- Gerald Boniel" << endl;
+    cout << "- Karl Matt Jurial" << endl;
+    cout << "- Kyle Palongpalong" << endl;
+    cout << "- Mark Bautista Usman" << endl;
+    cout << "- Paul Saligumba" << endl;
+    cout << "- Ruiz Sagosa" << endl;
+
+}
 int main() {
     TaskManager manager;
     manager.loadTasks("tasks.txt");
@@ -146,7 +170,8 @@ int main() {
         cout << "3. Edit Task" << endl;
         cout << "4. Mark Task as Completed" << endl;
         cout << "5. Delete Task" << endl;
-        cout << "6. Save and Exit" << endl;
+        cout << ANSI_GREEN << "6. Credits" << ANSI_RESET << endl;
+        cout << "7. Save and Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
         cin.ignore();
@@ -168,9 +193,13 @@ int main() {
                 manager.deleteTask();
                 break;
             case 6:
+                credits();
+                break;
+            case 7:
                 manager.saveTasks("tasks.txt");
                 cout << ANSI_GREEN << "Tasks saved. Exiting..." << ANSI_RESET << endl;
                 break;
+
             default:
                 cout << ANSI_YELLOW << "Invalid choice. Please try again." << ANSI_RESET << endl;
                 break;
