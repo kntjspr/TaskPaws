@@ -170,7 +170,7 @@ int main() {
         cout << "3. Edit Task" << endl;
         cout << "4. Mark Task as Completed" << endl;
         cout << "5. Delete Task" << endl;
-        cout << ANSI_GREEN << "6. Credits" << ANSI_RESET << endl;
+        cout << "6. Credits" << endl;
         cout << "7. Save and Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
