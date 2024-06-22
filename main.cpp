@@ -126,7 +126,7 @@ void credits() {
     cout << "*****************************" << endl;
     cout << "*        CREDITS            *" << endl;
     cout << "*****************************" << endl;
-    cout << ANSI_BLUE << "This program was created as a project in Computer Programming 2 for the BS in Computer Science Program at University of Science and Technology of Southern Philippines." << ANSI_RESET << endl;
+    cout << ANSI_BLUE << "This program was created as a project for Computer Programming 2 in BS in Computer Science Program at University of Science and Technology of Southern Philippines." << ANSI_RESET << endl;
     cout << endl;
     cout << ANSI_GREEN << "CS1C - Group 1 Members:" << ANSI_RESET << endl;
     cout << "- Sisi, Kent Jasper C." << endl;
