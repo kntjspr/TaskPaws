@@ -59,7 +59,7 @@ Follow the on-screen menu to manage your tasks:
 
 ## Credits
 
-This program was created as a project for Computer Programming 2 in the BS in Computer Science Program at University of Science and Technology of Southern Philippines.
+This program was created as a project for Computer Programming 2 in BS in Computer Science Program at University of Science and Technology of Southern Philippines.
 
 **CS1C - Group 1 Members:**
 - Sisi, Kent Jasper C.
