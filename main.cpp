@@ -4,12 +4,6 @@
 #include <algorithm>
 #include <string>
 
-// ANSI escape codes for text color
-#define ANSI_RESET   "\033[0m"
-#define ANSI_RED     "\033[1;31m"
-#define ANSI_GREEN   "\033[1;32m"
-#define ANSI_YELLOW  "\033[1;33m"
-#define ANSI_BLUE    "\033[1;34m"
 
 using namespace std;
 
@@ -39,7 +33,7 @@ public:
             }
             file.close();
         } else {
-            cout << ANSI_RED << "Unable to save tasks to file." << ANSI_RESET << endl;
+            cout  << "Unable to save tasks to file."  << endl;
         }
     }
 
@@ -55,20 +49,20 @@ public:
             }
             file.close();
         } else {
-            cout << ANSI_YELLOW << "No existing tasks found." << ANSI_RESET << endl;
+            cout  << "No existing tasks found."  << endl;
         }
     }
 
     void listTasks() {
         if (tasks.empty()) {
-            cout << ANSI_YELLOW << "No tasks available." << ANSI_RESET << endl;
+            cout  << "No tasks available."  << endl;
         } else {
-            cout << ANSI_BLUE << "To-Do List:" << ANSI_RESET << endl;
+            cout  << "To-Do List:"  << endl;
             for (const auto& task : tasks) {
                 if (task.completed) {
-                    cout << ANSI_GREEN << task.id << ". [x] " << task.description << ANSI_RESET << endl;
+                    cout  << task.id << ". [x] " << task.description  << endl;
                 } else {
-                    cout << ANSI_RED << task.id << ". [ ] " << task.description << ANSI_RESET << endl;
+                    cout  << task.id << ". [ ] " << task.description  << endl;
                 }
             }
         }
@@ -91,7 +85,7 @@ public:
             cout << "Enter new description: ";
             getline(cin, it->description);
         } else {
-            cout << ANSI_YELLOW << "Task ID not found." << ANSI_RESET << endl;
+            cout  << "Task ID not found."  << endl;
         }
     }
 
@@ -103,7 +97,7 @@ public:
         if (it != tasks.end()) {
             it->completed = true;
         } else {
-            cout << ANSI_YELLOW << "Task ID not found." << ANSI_RESET << endl;
+            cout  << "Task ID not found."  << endl;
         }
     }
 
@@ -115,7 +109,7 @@ public:
         if (it != tasks.end()) {
             tasks.erase(it, tasks.end());
         } else {
-            cout << ANSI_YELLOW << "Task ID not found." << ANSI_RESET << endl;
+            cout  << "Task ID not found."  << endl;
         }
     }
 };
@@ -126,9 +120,8 @@ void credits() {
     cout << "*****************************" << endl;
     cout << "*        CREDITS            *" << endl;
     cout << "*****************************" << endl;
-    cout << ANSI_BLUE << "This program was created as a project for Computer Programming 2 in BS in Computer Science Program at University of Science and Technology of Southern Philippines." << ANSI_RESET << endl;
     cout << endl;
-    cout << ANSI_GREEN << "CS1C - Group 1 Members:" << ANSI_RESET << endl;
+    cout  << "CS1C - Group 1 Members:"  << endl;
     cout << "- Sisi, Kent Jasper C." << endl;
     cout << "- Shane B. Pagara" << endl;
     cout << "- Mitch Dumdum" << endl;
@@ -164,7 +157,7 @@ int main() {
     int choice;
     do {
         cout << endl;
-        cout << ANSI_BLUE << "To-Do List Manager" << ANSI_RESET << endl;
+        cout  << "To-Do List Manager"  << endl;
         cout << "1. List Tasks" << endl;
         cout << "2. Add Task" << endl;
         cout << "3. Edit Task" << endl;
@@ -197,11 +190,11 @@ int main() {
                 break;
             case 7:
                 manager.saveTasks("tasks.txt");
-                cout << ANSI_GREEN << "Tasks saved. Exiting..." << ANSI_RESET << endl;
+                cout  << "Tasks saved. Exiting..."  << endl;
                 break;
 
             default:
-                cout << ANSI_YELLOW << "Invalid choice. Please try again." << ANSI_RESET << endl;
+                cout  << "Invalid choice. Please try again."  << endl;
                 break;
         }
     } while (choice != 7);
