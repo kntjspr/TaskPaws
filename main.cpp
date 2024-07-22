@@ -122,19 +122,7 @@ void credits() {
     cout << "*****************************" << endl;
     cout << endl;
     cout  << "CS1C - Group 1 Members:"  << endl;
-    cout << "- Sisi, Kent Jasper C." << endl;
-    cout << "- Shane B. Pagara" << endl;
-    cout << "- Mitch Dumdum" << endl;
-    cout << "- Jealry Escolar Pulpul" << endl;
-    cout << "- Sofia Belle Villarente" << endl;
-    cout << "- Alyssa Euana" << endl;
-    cout << "- Charles Sorongon" << endl;
-    cout << "- Gerald Boniel" << endl;
-    cout << "- Karl Matt Jurial" << endl;
-    cout << "- Kyle Palongpalong" << endl;
-    cout << "- Mark Bautista Usman" << endl;
-    cout << "- Paul Saligumba" << endl;
-    cout << "- Ruiz Sagosa" << endl;
+    cout << "Redacted for privacy reasons." << endl;w
 
 }
 int main() {
